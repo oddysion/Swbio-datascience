@@ -1,1 +1,17 @@
+GUT Microbiome
 
+This is a python notebook that explores the microbiome metadata provided on 60 patients, 30 with ASD and 30 Control. 
+This notebook runs a t-test on the provided dataset and explores the significant bacterial taxa. The notrbook also generates a second synthetically balanced dataset from the included .csv file to train a machine learning model (neural network). 
+
+To run: 
+
+1.	First ensure tensorflow is installed via kernel by running 
+
+
+	'pip install tensorflow'. 
+
+2. 	Place notebook and dataset within your working directory. 
+
+
+Within common taxa, 590 were found to have a significant difference between groups, with significant taxa exported as a filtered .csv file for further analysis. 
+Unfortunately, the model demonstrates unreliable prediction of patient-group due to the dataset being high-dimensional (high number of taxa in small sample size), but demonstrates early stopping and can be applied to a dataset with a smaller number of  preictors.
