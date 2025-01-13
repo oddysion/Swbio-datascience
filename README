@@ -1,4 +1,4 @@
-GUT Microbiome
+Gut Microbiome analysis
 
 This is a python notebook that explores the microbiome metadata provided on 60 patients, 30 with ASD and 30 Control. 
 This notebook runs a t-test on the provided dataset and explores the significant bacterial taxa. The notrbook also generates a second synthetically balanced dataset from the included .csv file to train a machine learning models (neural network and random forest). 
