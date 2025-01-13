@@ -10,7 +10,7 @@ To run:
 
 	'pip install tensorflow'. 
 
-2. 	Place notebook ('ASD_microbiome.ipynb') and dataset ('ASD meta abundance.csv') within your working directory. 
+2. 	Place notebook ('ASD_microbiome.ipynb') and dataset ('ASDmetaabundance.csv') within your working directory. 
 
 
 Within common taxa, 590 were found to have a significant difference between groups, with significant taxa exported as a filtered .csv file for further analysis. 
